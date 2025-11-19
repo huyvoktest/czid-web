@@ -28,6 +28,10 @@ jobs:
           --health-retries 5
       db:
         image: mysql:5.7
+      env:
+        MYSQL_ALLOW_EMPTY_PASSWORD: yes 
+        MYSQL_USER: test_user
+        MYSQL_PASSWORD: test_password
         options: >-
           --health-cmd "mysqladmin ping -h localhost"
           --health-interval 10s
