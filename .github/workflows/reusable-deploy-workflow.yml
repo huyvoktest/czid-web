@@ -29,6 +29,7 @@ env:
   # objects that can trigger a deployment workflow. The secret for this token (with repo_deployment scope) is created in
   # https://github.com/settings/tokens and can be managed in https://github.com/chanzuckerberg/idseq/settings/secrets.
   GH_DEPLOY_TOKEN: ${{ secrets.GH_DEPLOY_TOKEN }}
+  SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
   DEBIAN_FRONTEND: noninteractive
   LC_ALL: C.UTF-8
   LANG: C.UTF-8
