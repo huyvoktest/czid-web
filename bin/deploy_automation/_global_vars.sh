@@ -9,7 +9,7 @@ export GITHUB_TOKEN=${GH_DEPLOY_TOKEN:-$GITHUB_TOKEN}
 export GITHUB_REPOSITORY_API="https://api.github.com/repos/huyvoktest/czid-web/"
 export GITHUB_REPOSITORY_URL="https://github.com/huyvoktest/czid-web/"
 
-export ECR_REPOSITORY_NAME="czid-web"
+export ECR_REPOSITORY_NAME="idseq-web"
 
 # Special chars
 export TAB=$'\t'
